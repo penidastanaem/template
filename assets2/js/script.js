@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     timeago.render(document.querySelectorAll('.timeago'));
 });
 
-page.base('/template-main');
+page.base('/template');
 page('/', index);
 page('/features', features);
 page('/chart', chart);
